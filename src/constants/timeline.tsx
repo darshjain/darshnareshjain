@@ -1,5 +1,16 @@
 export const timeline = [
   {
+    company: "University of Virgina (UVA) CS Department",
+    title: "Graduate Research Assistant",
+    date: "Sep 2024 - Nov 2024",
+    description: "Research Assistant in Machine Learning And Systems Security.",
+    responsibilities: [
+      "Worked on threat detection and SIEM Rulesets for Windows and generating datasets using SOCBED and AMIDES machines.",
+      "Evaluated and analysed various research based systems for threat detection using machine learning and security principles.",
+      "Replicated multiple projects using reverse engineering and research paper principals, proving SIGMA ruleset ineffective."
+    ],
+  },
+  {
     company: "Lab Systems (I) Pvt. Ltd.",
     title: "Software Developer",
     date: "Aug 2023 - Jul 2024",
@@ -12,7 +23,7 @@ export const timeline = [
     ],
   },
   {
-    company: "Lab Systems Pvt. Ltd.",
+    company: "Lab Systems (I) Pvt. Ltd.", 
     title: "Software Developer & Blockchain Intern",
     date: "Aug 2022 - Jul 2023",
     description: "Crypto Forensics and Blockchain Internship.",
@@ -26,8 +37,9 @@ export const timeline = [
     company: "Amazon Web Services (SLRTCE)",
     title: "Cloud Intern",
     date: "Jun 2022 - Jul 2022",
-    description: "Completed a training internship focusing on deploying end-to-end solutions on AWS Cloud services.",
+    description: "Gained Expertise in AWS Cloud Internship.",
     responsibilities: [
+      "Completed a training internship focusing on deploying end-to-end solutions on AWS Cloud services.",  
       "Deployed solutions using AWS Cloudfront, Amplify, IAM, WAF, EC2, CI/CD Pipeline, Lambda, S3, RDS, and DynamoDB.",
     ],
   },
