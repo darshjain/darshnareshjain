@@ -37,7 +37,7 @@ export function BlogLayout({
           <Link
             type="button"
             href="/blog"
-            aria-label="Go back to articles"
+            aria-label="Go back to Publications"
             className="group mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 transition  "
           >
             <ArrowLeftIcon className="h-4 w-4 stroke-zinc-500 transition group-hover:stroke-zinc-700 d" />
