@@ -154,11 +154,11 @@ export const products = [
       <div>
         <p>
           EmoSync was an advanced e-learning platform designed to adapt its user
-          interface dynamically based on the learner's emotions, detected
+          interface dynamically based on the learner emotions, detected
           through facial and speech analysis. The system used machine learning
           models to recognize emotional states and employed color therapy and
           psychological principles to modify the interface for enhancing the
-          user’s mood and focus. This approach significantly improved the
+          user mood and focus. This approach significantly improved the
           learning experience, making it more personalized and engaging. EmoSync
           focused on creating a balance between cognitive load and emotional
           well-being, ensuring learners could retain information more
