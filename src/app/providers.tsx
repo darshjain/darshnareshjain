@@ -4,8 +4,8 @@ import { PostHogProvider } from 'posthog-js/react'
 import { ReactNode } from 'react';
 
 if (typeof window !== 'undefined') {
-  posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY as string, {
-    api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST as string, // Assert that the value is a string
+  posthog.init(process.env.NEXT_POSTHOG_KEY as string, {
+    api_host: process.env.NEXT_POSTHOG_HOST as string, // Assert that the value is a string
     person_profiles: 'identified_only', // or 'always'
   })
 }
