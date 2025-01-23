@@ -42,10 +42,20 @@ export const TechStack = () => {
       className: "h-10 w-24",
     },
     {
-      title: "Vercel",
+      title: "Vercel",  
       src: "/images/logos/vercel.png",
 
       className: "h-10 w-24",
+    },
+    {
+      title:"MongoDB",
+      src:"/images/logos/mongodb.png",
+      className:"h-10 w-24"
+    },
+    {
+      title:"Python",
+      src:"/images/logos/python.png",
+      className:"h-10 w-16"
     },
   ];
   return (
