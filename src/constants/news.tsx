@@ -8,13 +8,13 @@ import {
 } from "@tabler/icons-react";
 export const news = [
     {
-        href: "https://www.linkedin.com/in/darshjain/",
+        href: "https://www.linkedin.com/in/darshnjain/",
         icon: IconBriefcase2,
         title: "Graduate Research Assistant at UVA CS Department 🔬",
         date: "Sep 2024",
     },
     {
-        href: "https://www.linkedin.com/in/darshjain/",
+        href: "https://www.linkedin.com/in/darshnjain/",
         icon: IconBriefcase2,
         title: "Joined UVA CS Department as a Master's Student 🎓",
         date: "Aug 2024",
