@@ -10,6 +10,18 @@ export const news = [
     {
         href: "https://www.linkedin.com/in/darshnjain/",
         icon: IconBriefcase2,
+        title: "Started as a Full Stack SDE at Rhombus Power Inc. in Palo Alto, CA 🚀",
+        date: "May 2025",
+    },
+    {
+        href: "https://www.linkedin.com/in/darshnjain/",
+        icon: IconBriefcase2,
+        title: "Presented a Poster on Data Privacy Attacks On LLMs at UVA CS Department 🔬",
+        date: "Apr 2025",
+    },
+    {
+        href: "https://www.linkedin.com/in/darshnjain/",
+        icon: IconBriefcase2,
         title: "Graduate Research Assistant at UVA CS Department 🔬",
         date: "Sep 2024",
     },
