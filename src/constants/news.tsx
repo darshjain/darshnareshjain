@@ -10,7 +10,7 @@ export const news = [
     {
         href: "https://www.linkedin.com/in/darshnjain/",
         icon: IconBriefcase2,
-        title: "Started as a Full Stack SDE at Rhombus Power Inc. in Palo Alto, CA 🚀",
+        title: "Started as a Full Stack Software Development Intern at Rhombus Power Inc. in Palo Alto, CA 🚀",
         date: "May 2025",
     },
     {
