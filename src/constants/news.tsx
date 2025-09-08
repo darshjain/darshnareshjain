@@ -10,6 +10,12 @@ export const news = [
     {
         href: "https://www.linkedin.com/in/darshnjain/",
         icon: IconBriefcase2,
+        title: "Started as a Graduate Research Assistant at UVA Darden School of Business 🔬",
+        date: "Aug 2025",
+    },
+    {
+        href: "https://www.linkedin.com/in/darshnjain/",
+        icon: IconBriefcase2,
         title: "Started as a Full Stack Software Intern at Rhombus Power Inc., Palo Alto, CA 🚀",
         date: "May 2025",
     },

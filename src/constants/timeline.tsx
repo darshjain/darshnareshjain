@@ -1,5 +1,17 @@
 export const timeline = [
   {
+    company: "University of Virginia Darden School of Business",
+    title: "Graduate Research Assistant",
+    date: "Aug 2025 - Present",
+    description: "Engineered scalable data pipelines and AI-powered systems to support faculty research and large-scale data analysis.",
+    responsibilities: [
+      "Designed and automated data pipelines processing 10TB+ of raw data, improving workflow efficiency by 70%.",
+      "Developed robust data ingestion and web scraping systems to collect millions of structured and unstructured records.",
+      "Integrated LLMs via the OpenAI API to automate data processing and extract actionable insights.",
+      "Applied software engineering best practices including modular design, version control, and containerization to optimize performance and maintainability."
+    ],
+  },
+  {
     company: "University of Virgina (UVA) CS Department",
     title: "Graduate Research Assistant",
     date: "Sep 2024 - Nov 2024",
@@ -23,7 +35,7 @@ export const timeline = [
     ],
   },
   {
-    company: "Lab Systems (I) Pvt. Ltd.", 
+    company: "Lab Systems (I) Pvt. Ltd.",
     title: "Software Developer & Blockchain Intern",
     date: "Aug 2022 - Jul 2023",
     description: "Crypto Forensics and Blockchain Internship.",
@@ -39,7 +51,7 @@ export const timeline = [
     date: "Jun 2022 - Jul 2022",
     description: "Gained Expertise in AWS Cloud Internship.",
     responsibilities: [
-      "Completed a training internship focusing on deploying end-to-end solutions on AWS Cloud services.",  
+      "Completed a training internship focusing on deploying end-to-end solutions on AWS Cloud services.",
       "Deployed solutions using AWS Cloudfront, Amplify, IAM, WAF, EC2, CI/CD Pipeline, Lambda, S3, RDS, and DynamoDB.",
     ],
   },

@@ -13,15 +13,15 @@ export default function Home() {
     <Container>
       <span className="text-4xl">👋</span>
       <Heading className="font-black">Hello there! I&apos;m Darsh</Heading>
+
       <Paragraph className="max-w-xl mt-4">
-        I&apos;m a full-stack developer that loves{" "}
-        <Highlight>building products</Highlight> and web apps that can impact
-        millions of lives
+        I&apos;m a Full Stack Software Engineer passionate about{" "}
+        <Highlight>building products</Highlight> and web apps that have a real impact on people's lives.
       </Paragraph>
+
       <Paragraph className="max-w-xl mt-4">
-        I&apos;m a software engineer with{" "}
-        <Highlight>1 year of experience</Highlight> building scalable web and desktop apps
-        that are performance optimized and user friendly.
+        With <Highlight>2 years of experience</Highlight>, I build scalable web and desktop applications
+        that are high-performing, user-friendly, and optimized for real-world usage.
       </Paragraph>
 
       <Heading as="h2" className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4">
@@ -38,10 +38,7 @@ export default function Home() {
         ))}
       </ul>
 
-      <Heading
-        as="h2"
-        className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4"
-      >
+      <Heading as="h2" className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4">
         What I&apos;ve been working on
       </Heading>
       <Products />
@@ -49,3 +46,4 @@ export default function Home() {
     </Container>
   );
 }
+
