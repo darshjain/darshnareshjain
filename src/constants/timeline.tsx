@@ -12,6 +12,18 @@ export const timeline = [
     ],
   },
   {
+    company: "Rhombus Power Inc.",
+    title: "Full Stack Development Summer Intern",
+    date: "May 2025 - Aug 2025",
+    description: "Contributed to full-stack development and data solutions for mission-critical applications.",
+    responsibilities: [
+      "Developed a data solution to parse, predict, and generate GeoJSON data from active satellites, reducing runtime by 40%.",
+      "Contributed to full-stack development across multiple applications, ensuring performance, scalability, and security.",
+      "Identified and resolved critical issues in production deployments, improving stability and reliability of client applications.",
+      "Worked with tech stack including PHP, CodeIgniter, Node.js, ReactJS, Apache Airflow, Docker, S3, Vault, and JIRA."
+    ],
+  },
+  {
     company: "University of Virgina (UVA) CS Department",
     title: "Graduate Research Assistant",
     date: "Sep 2024 - Nov 2024",
