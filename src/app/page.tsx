@@ -16,7 +16,7 @@ export default function Home() {
 
       <Paragraph className="max-w-xl mt-4">
         I&apos;m a Full Stack Software Engineer passionate about{" "}
-        <Highlight>building products</Highlight> and web apps that have a real impact on people's lives.
+        <Highlight>building products</Highlight> and web apps that have a real impact in lives.
       </Paragraph>
 
       <Paragraph className="max-w-xl mt-4">
