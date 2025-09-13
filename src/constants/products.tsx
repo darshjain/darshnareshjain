@@ -11,17 +11,52 @@ import sidefolioMedilog from "public/images/sidefolio-medilog.jpeg";
 import sidefolioMedilog2 from "public/images/sidefolio-medilog2.jpeg";
 import sidefolioFMD from "public/images/sidefolio-FMD.png";
 import sidefolioFMD2 from "public/images/sidefolio-FMD-2.png";
-
-import sidefolioAceternity from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAceternity2 from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAlgochurn from "public/images/sidefolio-algochurn.png";
-import sidefolioAlgochurn2 from "public/images/sidefolio-algochurn.png";
-import sidefolioMoonbeam from "public/images/sidefolio-moonbeam.png";
-import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
-import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
-import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
+import sidefolioLLM from "public/images/sidefolio-LLM.png";
 
 export const products = [
+  {
+    href: "https://virginia.edu",
+    title: "LLM vs LLM: Fault Localization",
+    description:
+      "Automated debugging with dual LLMs for bug injection and fault localization.",
+    thumbnail: sidefolioLLM,
+    images: [sidefolioLLM],
+    stack: [
+      "C++",
+      "Python",
+      "Gemma-3-12B",
+      "PEFT",
+      "QLoRA",
+      "Synthetic Bug Datasets",
+    ],
+    slug: "LLM-Fault-Localization",
+    content: (
+      <div>
+        <p>
+          This project explores a novel framework where two large language models (LLMs)
+          collaborate for automated fault localization. One LLM functions as a{" "}
+          <b>fault injector</b>, generating synthetic buggy C++ programs, while the other acts
+          as a <b>debugger</b>, fine-tuned to pinpoint bug locations in code. Inspired by
+          generative adversarial setups, this iterative loop creates a self-improving
+          debugging ecosystem.
+        </p>
+        <p>
+          We implemented a prototype using the Gemma-3-12B model to generate{" "}
+          <b>5000 buggy programs</b> and fine-tuned a 12B-parameter debugger model with PEFT
+          and QLoRA. Preliminary results showed improved accuracy and reduced training loss,
+          though challenges such as limited resources, long training times, and fault realism
+          emerged. The project validates this approach against literature and outlines
+          directions such as incorporating real bug benchmarks (Defects4J, CodeNet),
+          optimizing pipelines, and reinforcing LLM feedback loops.
+        </p>
+        <p>
+          With adequate resources, this LLM-vs-LLM framework has the potential to
+          significantly advance <b>automated debugging</b> and accelerate software
+          development.
+        </p>
+      </div>
+    ),
+  },
   {
     href: "https://aceternity.com",
     title: "MyFRT",
