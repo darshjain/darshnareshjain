@@ -37,16 +37,16 @@ export default function About() {
       {/* About Content */}
       <div className="max-w-4xl mx-auto">
         <Paragraph className="mt-4">
-          I am Darsh Naresh Jain, a passionate software developer and graduate student pursuing a Master of Science in Computer Science at the University of Virginia. With a strong foundation in full-stack development and a deep interest in user experience, I strive to create innovative, scalable, and impactful software solutions.
+          I am Darsh Naresh Jain, a passionate AI/ML researcher and graduate student pursuing a Master of Science in Computer Science at the University of Virginia. With a strong foundation in artificial intelligence, machine learning, and Large Language Models, I specialize in developing cutting-edge AI solutions that bridge the gap between research and real-world applications.
         </Paragraph>
         <Paragraph className="mt-4">
-          In my professional journey, I have contributed to the development of web and desktop applications as a Software Developer at Lab Systems (I) Pvt. Ltd. My work involved utilizing technologies like Python, C++, Next.js, and ElectronJS to design and implement cryptocurrency forensics software, optimizing performance and delivering exceptional user experiences. Additionally, I have expertise in database solutions using MongoDB, LevelDB, and ElasticSearch to create efficient and secure systems.
+          Currently maintaining a GPA of 3.92/4.00, I am deeply immersed in advanced coursework including Machine Learning, Computer Vision, Natural Language Processing, and Distributed Systems. My research focuses on Large Language Models, RAG (Retrieval-Augmented Generation) systems, and prompt engineering techniques. I work extensively with modern AI frameworks including LangChain, OpenAI APIs, Hugging Face Transformers, PyTorch, and TensorFlow to build intelligent applications.
         </Paragraph>
         <Paragraph className="mt-4">
-          I have also led teams, optimized workflows with Git, and ensured seamless collaboration through effective communication of design architectures. My academic projects, including a blockchain-based pharmaceutical supply chain system, reflect my commitment to solving real-world challenges with cutting-edge technology.
+          My professional experience includes developing cryptocurrency forensics software at Lab Systems (I) Pvt. Ltd., where I utilized Python, C++, Next.js, and ElectronJS to create scalable solutions. I have expertise in database technologies like MongoDB, LevelDB, and ElasticSearch, and have led teams while optimizing workflows with Git and modern development practices.
         </Paragraph>
         <Paragraph className="mt-4">
-          I am driven by problem-solving, innovation, and a passion for learning. Through this platform, I look forward to sharing my skills, experiences, and collaborations on projects that make a meaningful impact.
+          I am passionate about solving complex problems through AI innovation and creating systems that make a meaningful impact. My academic projects span blockchain technology, AI-powered applications, and machine learning solutions. Through this platform, I share my journey in AI research, technical insights, and collaborative projects that push the boundaries of what's possible with artificial intelligence.
         </Paragraph>
       </div>
     </div>
