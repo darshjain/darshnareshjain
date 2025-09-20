@@ -25,22 +25,24 @@ export default function RootLayout({
   return (
     <CSPostHogProvider>
 
-    <html lang="en">
-      <body
-        className={twMerge(
-          inter.className,
-          "flex antialiased h-screen overflow-hidden bg-gray-100"
-        )}
+      <html lang="en">
+        <body
+          className={twMerge(
+            inter.className,
+            "flex antialiased h-screen overflow-hidden bg-gray-100"
+          )}
         >
-        <Sidebar />
-        <div className="lg:pl-2 lg:pt-2 bg-gray-100 flex-1 overflow-y-auto">
-          <div className="flex-1 bg-white min-h-screen lg:rounded-tl-xl border border-transparent lg:border-neutral-200 overflow-y-auto">
-            {children}
-            <Footer />
+          <Sidebar />
+          <div className="lg:pl-2 lg:pt-2 bg-gray-100 flex-1 overflow-y-auto">
+            <div className="flex-1 bg-white min-h-screen lg:rounded-tl-xl border border-transparent lg:border-neutral-200 overflow-y-auto">
+              {/* Mobile top padding to account for floating menu button */}
+              <div className="lg:hidden h-20"></div>
+              {children}
+              <Footer />
+            </div>
           </div>
-        </div>
-      </body>
-    </html>
-        </CSPostHogProvider>
+        </body>
+      </html>
+    </CSPostHogProvider>
   );
 }

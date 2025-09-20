@@ -25,30 +25,30 @@ export const Educations = () => {
             }}
             transition={{ duration: 0.2, delay: idx * 0.1 }}
           >
-           
-              <div className="flex flex-col justify-between">
-                <div>
-                  <Heading
-                    as="h4"
-                    className="font-black text-lg md:text-lg lg:text-lg "
-                  >
-                    {product.title}
-                  </Heading>
-                  <Paragraph className="text-sm md:text-sm lg:text-sm mt-2 max-w-xl">
-                    {product.description}
-                  </Paragraph>
-                </div>
-                <div className="flex space-x-2 md:mb-1 mt-2 md:mt-0">
-                  {product.stack?.map((stack: string) => (
-                    <span
-                      key={stack}
-                      className="text-xs  md:text-xs lg:text-xs bg-gray-50 px-2 py-1 rounded-sm text-secondary"
-                    >
-                      {stack}
-                    </span>
-                  ))}
-                </div>
+
+            <div className="flex flex-col justify-between">
+              <div>
+                <Heading
+                  as="h4"
+                  className="font-black text-base sm:text-lg md:text-lg lg:text-lg"
+                >
+                  {product.title}
+                </Heading>
+                <Paragraph className="text-xs sm:text-sm md:text-sm lg:text-sm mt-2 max-w-xl">
+                  {product.description}
+                </Paragraph>
               </div>
+              <div className="flex flex-wrap gap-2 md:mb-1 mt-2 md:mt-0">
+                {product.stack?.map((stack: string) => (
+                  <span
+                    key={stack}
+                    className="text-xs bg-gray-50 px-2 py-1 rounded-sm text-secondary"
+                  >
+                    {stack}
+                  </span>
+                ))}
+              </div>
+            </div>
           </motion.div>
         ))}
       </div>

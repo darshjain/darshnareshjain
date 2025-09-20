@@ -5,16 +5,16 @@ import { motion } from "framer-motion";
 
 export default function About() {
   const images = [
-    "/images/1.jpeg",
-    "/images/2.jpeg",
-    "/images/3.jpeg",
-    "/images/4.jpeg",
+    "/about/1.jpeg",
+    "/about/2.jpeg",
+    "/about/3.jpeg",
+    "/about/4.jpeg",
   ];
 
   return (
-    <div className="px-4 md:px-10">
+    <div className="px-4 sm:px-6 md:px-10">
       {/* Image Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-6 my-10">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 my-8 sm:my-10">
         {images.map((image, index) => (
           <motion.div
             key={image}
@@ -28,7 +28,7 @@ export default function About() {
               width={200}
               height={400}
               alt={`About image ${index + 1}`}
-              className="rounded-md object-cover transform shadow-lg block w-full h-40 md:h-60 hover:rotate-0 transition duration-200"
+              className="rounded-md object-cover transform shadow-lg block w-full h-32 sm:h-40 md:h-60 hover:rotate-0 transition duration-200"
             />
           </motion.div>
         ))}

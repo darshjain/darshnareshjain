@@ -60,21 +60,20 @@ export const Blogs = ({ blogs }: { blogs: Blog[] }) => {
                 alt="thumbnail"
                 height="200"
                 width="200"
-                objectFit="cover"
-                className="rounded-md object-cover h-40 w-60"
+                className="rounded-md object-cover w-full h-48 sm:h-52 md:h-40"
               />
-              <div className="flex flex-col col-span-3">
-                <Heading className="text-lg md:text-lg lg:text-lg">
+              <div className="flex flex-col col-span-1 md:col-span-3">
+                <Heading className="text-base sm:text-lg md:text-lg lg:text-lg">
                   {blog.title}
                 </Heading>
-                <Paragraph className="text-sm md:text-sm lg:text-sm mt-2">
+                <Paragraph className="text-xs sm:text-sm md:text-sm lg:text-sm mt-2">
                   {blog.description}
                 </Paragraph>
-                <div className="flex space-x-2 flex-wrap mt-4">
+                <div className="flex flex-wrap gap-2 mt-4">
                   {blog.tags?.map((tag, index) => (
                     <span
-                      key={`tag-${blog.slug}`}
-                      className="text-xs px-1 py-0.5 text-secondary border border-neutral-200 bg-white rounded-md"
+                      key={`tag-${blog.slug}-${index}`}
+                      className="text-xs px-2 py-1 text-secondary border border-neutral-200 bg-white rounded-md"
                     >
                       {tag}
                     </span>

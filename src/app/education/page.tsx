@@ -13,7 +13,7 @@ export default function Education() {
         Where I&apos;ve been studying at
       </Heading>
       <Educations />
-      
+
     </Container>
   );
 }

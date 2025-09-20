@@ -24,7 +24,7 @@ export default function Home() {
         that are high-performing, user-friendly, and optimized for real-world usage.
       </Paragraph>
 
-      <Heading as="h2" className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4">
+      <Heading as="h2" className="font-black text-base sm:text-lg md:text-lg lg:text-lg mt-16 sm:mt-20 mb-4">
         News
       </Heading>
       <ul className="list-disc list-inside space-y-1 text-gray-700">
@@ -38,7 +38,7 @@ export default function Home() {
         ))}
       </ul>
 
-      <Heading as="h2" className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4">
+      <Heading as="h2" className="font-black text-base sm:text-lg md:text-lg lg:text-lg mt-16 sm:mt-20 mb-4">
         What I&apos;ve been working on
       </Heading>
       <Products />
