@@ -46,7 +46,7 @@ export default function About() {
           My professional experience includes developing cryptocurrency forensics software at Lab Systems (I) Pvt. Ltd., where I utilized Python, C++, Next.js, and ElectronJS to create scalable solutions. I have expertise in database technologies like MongoDB, LevelDB, and ElasticSearch, and have led teams while optimizing workflows with Git and modern development practices.
         </Paragraph>
         <Paragraph className="mt-4">
-          I am passionate about solving complex problems through AI innovation and creating systems that make a meaningful impact. My academic projects span blockchain technology, AI-powered applications, and machine learning solutions. Through this platform, I share my journey in AI research, technical insights, and collaborative projects that push the boundaries of what's possible with artificial intelligence.
+          I am passionate about solving complex problems through AI innovation and creating systems that make a meaningful impact. My academic projects span blockchain technology, AI-powered applications, and machine learning solutions. Through this platform, I share my journey in AI research, technical insights, and collaborative projects that push the boundaries of what&apos;s possible with artificial intelligence.
         </Paragraph>
       </div>
     </div>
