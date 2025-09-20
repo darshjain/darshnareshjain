@@ -67,8 +67,8 @@ export const Educations = () => {
             className="bg-white border border-neutral-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-200"
           >
             {/* Header Section */}
-            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
-              <div className={`${education.title.includes('Master') ? 'flex-[3] sm:flex-[2]' : 'flex-1 sm:flex-[2]'}`}>
+            <div className="mb-4">
+              <div className="flex-1">
                 <Heading
                   as="h3"
                   className="font-black text-lg sm:text-xl md:text-xl lg:text-xl text-gray-900 mb-2"
@@ -79,14 +79,11 @@ export const Educations = () => {
                   {education.description}
                 </Paragraph>
               </div>
-              <div className="flex flex-wrap gap-1 sm:gap-2 justify-center sm:justify-end">
+              <div className="flex flex-col sm:flex-row sm:justify-start gap-2 mt-2">
                 {education.stack?.map((item: string, stackIndex: number) => (
                   <span
                     key={stackIndex}
-                    className={`bg-blue-100 text-blue-800 py-1 rounded-full font-medium text-xs sm:text-xs text-center min-w-0 ${education.title.includes('Master')
-                      ? 'px-1.5 sm:px-3 flex-1 sm:flex-none'
-                      : 'px-2 sm:px-3 flex-1 sm:flex-none'
-                      }`}
+                    className="bg-blue-100 text-blue-800 px-2 py-1 sm:px-3 rounded-full font-medium text-xs text-center w-fit"
                   >
                     {item}
                   </span>
