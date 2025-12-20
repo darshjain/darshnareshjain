@@ -173,8 +173,8 @@ const SidebarHeader = () => {
 const DownloadResumeButton = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/DarshJain.pdf';
-    link.download = 'DarshJain_Resume.pdf';
+    link.href = '/DarshJainResume.pdf';
+    link.download = 'DarshJainResume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

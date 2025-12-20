@@ -37,16 +37,16 @@ export default function About() {
       {/* About Content */}
       <div className="max-w-4xl mx-auto">
         <Paragraph className="mt-4">
-          I am Darsh Naresh Jain, a passionate AI/ML researcher and graduate student pursuing a Master of Science in Computer Science at the University of Virginia. With a strong foundation in artificial intelligence, machine learning, and Large Language Models, I specialize in developing cutting-edge AI solutions that bridge the gap between research and real-world applications.
+          I am Darsh Naresh Jain, a Full Stack Software Developer and AI/ML Engineer who recently graduated with a Master of Science in Computer Science from the University of Virginia with a GPA of 3.94/4.00. I specialize in building scalable data pipelines, AI-powered applications, and full-stack solutions that solve real-world challenges.
         </Paragraph>
         <Paragraph className="mt-4">
-          Currently maintaining a GPA of 3.92/4.00, I am deeply immersed in advanced coursework including Machine Learning, Computer Vision, Natural Language Processing, and Distributed Systems. My research focuses on Large Language Models, RAG (Retrieval-Augmented Generation) systems, and prompt engineering techniques. I work extensively with modern AI frameworks including LangChain, OpenAI APIs, Hugging Face Transformers, PyTorch, and TensorFlow to build intelligent applications.
+          Currently, I work as a Data Engineering Research Assistant at UVA Darden School of Business, where I implement automated scalable data pipelines processing 10TB+ of raw data and integrate Large Language Models using the OpenAI API to streamline data processing and enable automated insights. Previously, I contributed to mission-critical applications at Rhombus Power Inc., developing data solutions for satellite prediction systems and full-stack development across multiple production deployments.
         </Paragraph>
         <Paragraph className="mt-4">
-          My professional experience includes developing cryptocurrency forensics software at Lab Systems (I) Pvt. Ltd., where I utilized Python, C++, Next.js, and ElectronJS to create scalable solutions. I have expertise in database technologies like MongoDB, LevelDB, and ElasticSearch, and have led teams while optimizing workflows with Git and modern development practices.
+          As a Founding Engineer at Lab Systems (I) Pvt. Ltd., I architected and implemented scalable cryptocurrency forensics and disk forensics web applications, built high-performance API services in C++ and Python, and developed AI-driven forensic agents to automate evidence analysis and investigation workflows. I led a product development team and streamlined deployment through DevOps practices, optimizing cloud infrastructure on AWS and Linux servers.
         </Paragraph>
         <Paragraph className="mt-4">
-          I am passionate about solving complex problems through AI innovation and creating systems that make a meaningful impact. My academic projects span blockchain technology, AI-powered applications, and machine learning solutions. Through this platform, I share my journey in AI research, technical insights, and collaborative projects that push the boundaries of what&apos;s possible with artificial intelligence.
+          My technical expertise spans Python, JavaScript, C/C++, SQL/NoSQL, and modern frameworks including ReactJS/NextJS, Flask, and Docker. I have hands-on experience with LLM fine-tuning, Retrieval Augmented Generation (RAG), AI Agents, and distributed systems. I&apos;m passionate about bridging cutting-edge AI research with production-ready applications and have been granted a German patent for a Blockchain-based pharmaceutical supply chain management system.
         </Paragraph>
       </div>
     </div>

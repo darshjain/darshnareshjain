@@ -9,7 +9,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Projects | Darsh Naresh Jain",
   description:
-    "Darsh Naresh Jain is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Portfolio of AI/ML and full stack projects by Darsh Jain, showcasing expertise in Large Language Models, blockchain, cryptocurrency forensics, and modern web development.",
 };
 
 export default function Projects() {

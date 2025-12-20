@@ -12,7 +12,7 @@ import About from "@/components/About";
 export const metadata: Metadata = {
   title: "About | Darsh Naresh Jain",
   description:
-    "Darsh Naresh Jain is an AI/ML researcher and graduate student at University of Virginia, specializing in Large Language Models, RAG systems, and modern AI frameworks like LangChain and OpenAI.",
+    "Darsh Naresh Jain is an AI/ML researcher and recent graduate from University of Virginia with a Master's in Computer Science, specializing in Large Language Models, RAG systems, and modern AI frameworks like LangChain and OpenAI.",
 };
 
 export default function AboutPage() {

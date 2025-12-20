@@ -3,7 +3,7 @@ export const educations = [
     href: "https://www.virginia.edu",
     title: "Master of Science in Computer Science",
     description: "University of Virginia, Charlottesville, VA, United States",
-    stack: ["GPA: 3.92/4.00", "Expected Graduation: May 2025", "Full-time Graduate Student"],
+    stack: ["GPA: 3.94/4.00", "Graduated: December 2025", "University of Virginia"],
     content: (
       <div className="space-y-4">
         <div>
@@ -41,7 +41,7 @@ export const educations = [
         <div>
           <h5 className="font-semibold text-sm text-primary mb-2">Key Achievements</h5>
           <ul className="text-xs space-y-1 text-gray-700">
-            <li>• Maintained exceptional GPA of 3.92/4.00 across advanced coursework</li>
+            <li>• Graduated with exceptional GPA of 3.94/4.00 across advanced coursework</li>
             <li>• Developed expertise in Large Language Models and AI applications</li>
             <li>• Implemented RAG systems and prompt engineering techniques</li>
             <li>• Built applications using LangChain and modern AI frameworks</li>

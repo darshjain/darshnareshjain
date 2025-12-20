@@ -1,14 +1,13 @@
 export const timeline = [
   {
     company: "University of Virginia Darden School of Business",
-    title: "Graduate Research Assistant",
+    title: "Data Engineering Research Assistant",
     date: "Aug 2025 - Present",
     description: "Engineered scalable data pipelines and AI-powered systems to support faculty research and large-scale data analysis.",
     responsibilities: [
-      "Designed and automated data pipelines processing 10TB+ of raw data, improving workflow efficiency by 70%.",
-      "Developed robust data ingestion and web scraping systems to collect millions of structured and unstructured records.",
-      "Integrated LLMs via the OpenAI API to automate data processing and extract actionable insights.",
-      "Applied software engineering best practices including modular design, version control, and containerization to optimize performance and maintainability."
+      "Implemented and automated scalable data pipelines processing 10TB+ of raw data, improving overall workflow efficiency by 70%.",
+      "Built robust data ingestion and web scraping systems to collect millions of structured and unstructured records.",
+      "Integrated LLMs using the OpenAI API to streamline data processing and enable automated insights from large datasets."
     ],
   },
   {
@@ -36,25 +35,25 @@ export const timeline = [
   },
   {
     company: "Lab Systems (I) Pvt. Ltd.",
-    title: "Software Developer",
+    title: "Founding Full Stack Software Developer",
     date: "Aug 2023 - Jul 2024",
-    description: "Developed Cryptocurrency and Disk Forensics Software.",
+    description: "Founding engineer of the Karpuragaurai Development Wing, driving core platform development and initial technology roadmap.",
     responsibilities: [
-      "Designed and implemented scalable Cryptocurrency Forensics and Disk Forensics software.",
-      "Designed APIs using C++ and Python backend and Operating System services to increase performance of software.",
-      "Managed the team as Lead, optimizing workflows using Git and other tools and communicating design architectures.",
-      "Deployed solutions in multiple architectures on AWS Cloud and on Linux Servers using Network Design & Containers.",
+      "Architected and implemented a scalable cryptocurrency forensics and disk forensics web applications in a startup environment.",
+      "Built User Interface and API services in C++ and Python, enhancing software performance by 70% via multiple optimization.",
+      "Developed AI-driven forensic agents to automate evidence analysis, anomaly detection, and investigation workflows.",
+      "Lead a Product Development team to optimize workflows and usage of system architecture design to devise solutions for clients.",
+      "Streamlined deployment by implementing DevOps, optimizing cloud and Linux servers with network topology and containerization."
     ],
   },
   {
     company: "Lab Systems (I) Pvt. Ltd.",
-    title: "Software Developer & Blockchain Intern",
+    title: "Full Stack Software Developer Intern",
     date: "Aug 2022 - Jul 2023",
-    description: "Crypto Forensics and Blockchain Internship.",
+    description: "Gained expertise in cryptocurrency forensics and blockchain technology in a startup environment.",
     responsibilities: [
-      "Gained expertise in cryptocurrency forensics using OSINT techniques.",
-      "Worked on real-life cases involving over $20 million in cryptocurrencies.",
-      "Set up Cryptocurrency Full Nodes and developed software design on-premises while maintaining client relations globally.",
+      "Gained expertise in cryptocurrency forensics using OSINT techniques, training a team to provide comprehensive forensic services.",
+      "Engaged in high profile cases involving over USD 20 million in cryptocurrencies such as Bitcoin in multiple countries."
     ],
   },
   {

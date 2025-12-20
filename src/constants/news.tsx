@@ -9,6 +9,12 @@ import {
 export const news = [
     {
         href: "https://www.linkedin.com/in/darshnjain/",
+        icon: IconCertificate,
+        title: "Graduated from University of Virginia with M.S. in Computer Science (GPA: 3.94/4.00) 🎓",
+        date: "Dec 2024",
+    },
+    {
+        href: "https://www.linkedin.com/in/darshnjain/",
         icon: IconBriefcase2,
         title: "Started as a Graduate Research Assistant at UVA Darden School of Business 🔬",
         date: "Aug 2025",

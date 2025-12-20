@@ -10,7 +10,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Blogs | Darsh Naresh Jain",
   description:
-    "Darsh Naresh Jain is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Technical insights and articles by Darsh Jain, an AI/ML engineer and full stack developer with expertise in Large Language Models, RAG systems, and modern AI frameworks.",
 };
 
 export default async function Blog() {

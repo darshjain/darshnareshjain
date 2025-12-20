@@ -19,7 +19,7 @@ export const Educations = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
           <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-4 rounded-lg border border-blue-200">
             <h3 className="font-semibold text-blue-900 mb-2">Graduate Studies</h3>
-            <p className="text-sm text-blue-700">Current GPA: 3.92/4.00</p>
+            <p className="text-sm text-blue-700">Final GPA: 3.94/4.00</p>
             <p className="text-xs text-blue-600">University of Virginia</p>
           </div>
           <div className="bg-gradient-to-r from-green-50 to-green-100 p-4 rounded-lg border border-green-200">

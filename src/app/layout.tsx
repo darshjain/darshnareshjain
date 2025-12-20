@@ -12,9 +12,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Darsh Jain - Developer",
+  title: "Darsh Jain - AI/ML Engineer & Full Stack Developer",
   description:
-    "Darsh Jain is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Darsh Jain is an AI/ML engineer and full stack developer with an M.S. in Computer Science from the University of Virginia (GPA: 3.94). Specializing in Large Language Models, RAG systems, and modern AI frameworks.",
 };
 
 export default function RootLayout({
