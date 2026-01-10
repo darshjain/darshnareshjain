@@ -20,7 +20,7 @@ export default function Home() {
       </Paragraph>
 
       <Paragraph className="max-w-xl mt-4">
-        With <Highlight>2 years of Founder & Software Engineer experience</Highlight>, I build scalable web and desktop applications
+        With over <Highlight>2 years of Founder & Software Engineer experience</Highlight>, I build scalable web and desktop applications
         that are high-performing, user-friendly, and optimized for real-world usage.
       </Paragraph>
 
