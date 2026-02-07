@@ -58,7 +58,7 @@ export const news = [
     {
         href: "#",
         icon: IconMessage2,
-        title: "Promoted at Lab Systems as Software Developer 🚀",
+        title: "Started at Lab Systems as Co-Founder and Software Developer 🚀",
         date: "Aug 2023",
     },
     {
@@ -76,7 +76,7 @@ export const news = [
     {
         href: "#",
         icon: IconBriefcase2,
-        title: "Blockchain Intern at Lab Systems 🛠️",
+        title: "Blockchain Intern at Lab Systems Services Team 🛠️",
         date: "Aug 2022",
     },
     {
