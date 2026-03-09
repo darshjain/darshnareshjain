@@ -82,7 +82,7 @@ export const news = [
     {
         href: "#",
         icon: IconBolt,
-        title: "Cloud Intern at AWS ☁️",
+        title: "Cloud Intern at AWS SLRTCE☁️",
         date: "Jun 2022",
     },
     {

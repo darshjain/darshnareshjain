@@ -60,7 +60,7 @@ export const timeline = [
     company: "Amazon Web Services (SLRTCE)",
     title: "Cloud Intern",
     date: "Jun 2022 - Jul 2022",
-    description: "Gained Expertise in AWS Cloud Internship.",
+    description: "Gained Expertise in AWS SLRTCE Cloud Internship.",
     responsibilities: [
       "Completed a training internship focusing on deploying end-to-end solutions on AWS Cloud services.",
       "Deployed solutions using AWS Cloudfront, Amplify, IAM, WAF, EC2, CI/CD Pipeline, Lambda, S3, RDS, and DynamoDB.",
