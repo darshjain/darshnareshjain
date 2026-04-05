@@ -1,5 +1,15 @@
 export const timeline = [
   {
+    company: "Cast Insights Inc",
+    title: "Software Development Engineer",
+    date: "March 2026 - April 2026",
+    description: "Software Development Engineer at Cast Insights Inc in San Francisco, CA.",
+    responsibilities: [
+      "Engineered scalable microservices on GKE powering a recommendation engine integrated with ETL pipelines with noise filtering",
+      "Orchestrated an LLM-based agent using RAG and MCP to extract insights from news podcasts and audio data for insights",
+    ],
+  },
+  {
     company: "University of Virginia Darden School of Business",
     title: "Data Engineering Research Assistant",
     date: "Aug 2025 - Present",
@@ -36,7 +46,7 @@ export const timeline = [
   {
     company: "Lab Systems (I) Pvt. Ltd.",
     title: "Founding Full Stack Software Developer",
-    date: "Aug 2023 - Jul 2024",
+    date: "Aug 2022 - Jul 2024",
     description: "Founding engineer of the Karpuragaurai Development Wing, driving core platform development and initial technology roadmap.",
     responsibilities: [
       "Architected and implemented a scalable cryptocurrency forensics and disk forensics web applications in a startup environment.",
@@ -44,16 +54,6 @@ export const timeline = [
       "Developed AI-driven forensic agents to automate evidence analysis, anomaly detection, and investigation workflows.",
       "Lead a Product Development team to optimize workflows and usage of system architecture design to devise solutions for clients.",
       "Streamlined deployment by implementing DevOps, optimizing cloud and Linux servers with network topology and containerization."
-    ],
-  },
-  {
-    company: "Lab Systems (I) Pvt. Ltd.",
-    title: "Full Stack Software Developer Intern",
-    date: "Aug 2022 - Jul 2023",
-    description: "Gained expertise in cryptocurrency forensics and blockchain technology in a startup environment.",
-    responsibilities: [
-      "Gained expertise in cryptocurrency forensics using OSINT techniques, training a team to provide comprehensive forensic services.",
-      "Engaged in high profile cases involving over USD 20 million in cryptocurrencies such as Bitcoin in multiple countries."
     ],
   },
   {

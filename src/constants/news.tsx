@@ -9,6 +9,12 @@ import {
 export const news = [
     {
         href: "https://www.linkedin.com/in/darshnjain/",
+        icon: IconBriefcase2,
+        title: "Started as a Software Development Engineer at Cast Insights Inc, San Francisco, CA 🚀",
+        date: "Mar 2026",
+    },
+    {
+        href: "https://www.linkedin.com/in/darshnjain/",
         icon: IconCertificate,
         title: "Graduated from University of Virginia with M.S. in Computer Science (GPA: 3.94/4.00) 🎓",
         date: "Dec 2025",
@@ -57,12 +63,6 @@ export const news = [
     },
     {
         href: "#",
-        icon: IconMessage2,
-        title: "Started at Lab Systems as Co-Founder and Software Developer 🚀",
-        date: "Aug 2023",
-    },
-    {
-        href: "#",
         icon: IconMail,
         title: "Graduated from University of Mumbai 🎓",
         date: "May 2023",
@@ -76,7 +76,7 @@ export const news = [
     {
         href: "#",
         icon: IconBriefcase2,
-        title: "Blockchain Intern at Lab Systems Services Team 🛠️",
+        title: "Started at Lab Systems as Founding Full Stack Software Developer 🚀",
         date: "Aug 2022",
     },
     {
