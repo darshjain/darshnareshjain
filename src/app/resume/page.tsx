@@ -1,38 +1,61 @@
 import { Container } from "@/components/Container";
 import { Heading } from "@/components/Heading";
-import { Highlight } from "@/components/Highlight";
 import { Paragraph } from "@/components/Paragraph";
-import { Products } from "@/components/Products";
 import { WorkHistory } from "@/components/WorkHistory";
 import { Metadata } from "next";
-import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Resume | Darsh Naresh Jain",
+  title: "Experience | Darsh Naresh Jain",
   description:
-    "Professional experience and work history of Darsh Jain - AI/ML Engineer and Full Stack Developer with M.S. in Computer Science from University of Virginia (GPA: 3.94).",
+    "Work experience and engineering history of Darsh Naresh Jain — Founding Software Engineer building AI products and distributed systems.",
 };
 
-export default function Home() {
+const stats = [
+  { value: "6+", label: "Roles shipped" },
+  { value: "10TB+", label: "Data engineered" },
+  { value: "70%", label: "Avg perf gains" },
+  { value: "1", label: "Granted patent" },
+];
+
+export default function ResumePage() {
   return (
     <Container>
-      <span className="text-4xl">💼</span>
-      <Heading className="font-black">Work History</Heading>
-      <Paragraph className="max-w-xl mt-4">
-        Full Stack Software Developer and AI/ML Engineer with an <Highlight>M.S. in Computer Science from the University of Virginia (GPA: 3.94)</Highlight>.
-        I specialize in building scalable data pipelines, AI-powered applications, and full-stack solutions that solve real-world challenges.
-      </Paragraph>
-      <Paragraph className="max-w-xl mt-4">
-        Currently working as a <Highlight>Data Engineering Research Assistant at UVA Darden School of Business</Highlight>, implementing automated scalable data pipelines
-        processing 10TB+ of raw data and integrating Large Language Models using the OpenAI API. Previously contributed to mission-critical applications at
-        Rhombus Power Inc. and served as a <Highlight>Founding Engineer at Lab Systems (I) Pvt. Ltd.</Highlight>, architecting cryptocurrency forensics and disk forensics solutions.
-      </Paragraph>
-      <Paragraph className="max-w-xl mt-4">
-        Technical expertise spans <Highlight>Python, JavaScript, C/C++, SQL/NoSQL</Highlight>, and modern frameworks including ReactJS/NextJS, Flask, and Docker.
-        Hands-on experience with LLM fine-tuning, Retrieval Augmented Generation (RAG), AI Agents, and distributed systems. Granted a
-        <Highlight>German patent</Highlight> for a Blockchain-based pharmaceutical supply chain management system.
-      </Paragraph>
-      <WorkHistory />
+      <section className="space-y-6">
+        <span className="inline-block text-3xl">💼</span>
+        <Heading className="font-black text-4xl md:text-5xl">Experience</Heading>
+        <Paragraph className="max-w-2xl text-base md:text-lg leading-relaxed">
+          A timeline of the engineering teams I&apos;ve been part of — from first-engineer-on-the-ground at an early-stage startup to research labs and enterprise teams. The thread running through all of it: own a piece end-to-end, ship it to production, and leave the system measurably better.
+        </Paragraph>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 pt-6">
+          {stats.map((s) => (
+            <div
+              key={s.label}
+              className="p-4 md:p-5 rounded-2xl glass-card text-center"
+            >
+              <div className="text-2xl md:text-3xl font-black text-neutral-900 dark:text-white">
+                {s.value}
+              </div>
+              <div className="mt-1 text-[10px] md:text-[11px] font-bold uppercase tracking-[0.18em] text-neutral-500 dark:text-neutral-400">
+                {s.label}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-16">
+        <div className="flex items-center space-x-4 mb-2">
+          <Heading as="h2" className="text-xl md:text-2xl font-bold">
+            Work History
+          </Heading>
+          <div className="h-px flex-1 bg-gradient-to-r from-neutral-200 dark:from-zinc-800 to-transparent" />
+        </div>
+        <Paragraph className="text-sm text-neutral-500 dark:text-neutral-400">
+          Most recent first.
+        </Paragraph>
+        <WorkHistory />
+      </section>
     </Container>
   );
 }

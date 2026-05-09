@@ -1,117 +1,84 @@
-export const educations = [
+import type { Education } from "@/types/education";
+
+export const educations: Education[] = [
   {
     href: "https://www.virginia.edu",
-    title: "Master of Science in Computer Science",
-    description: "University of Virginia, Charlottesville, VA, United States",
-    stack: ["GPA: 3.94/4.00", "Graduated: December 2025", "University of Virginia"],
-    content: (
-      <div className="space-y-4">
-        <div>
-          <h5 className="font-semibold text-sm text-primary mb-2">Coursework</h5>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-            <span className="text-xs bg-blue-50 px-2 py-1 rounded text-blue-700">Machine Learning</span>
-            <span className="text-xs bg-blue-50 px-2 py-1 rounded text-blue-700">Computer Vision</span>
-            <span className="text-xs bg-blue-50 px-2 py-1 rounded text-blue-700">Natural Language Processing</span>
-            <span className="text-xs bg-blue-50 px-2 py-1 rounded text-blue-700">Distributed Systems</span>
-            <span className="text-xs bg-blue-50 px-2 py-1 rounded text-blue-700">Advanced Algorithms</span>
-            <span className="text-xs bg-blue-50 px-2 py-1 rounded text-blue-700">Software Engineering</span>
-            <span className="text-xs bg-blue-50 px-2 py-1 rounded text-blue-700">Database Systems</span>
-            <span className="text-xs bg-blue-50 px-2 py-1 rounded text-blue-700">Computer Networks</span>
-          </div>
-        </div>
-
-        <div>
-          <h5 className="font-semibold text-sm text-primary mb-2">Advanced Tech Skills Developed</h5>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-            <span className="text-xs bg-purple-50 px-2 py-1 rounded text-purple-700">Large Language Models (LLMs)</span>
-            <span className="text-xs bg-purple-50 px-2 py-1 rounded text-purple-700">LangChain Framework</span>
-            <span className="text-xs bg-purple-50 px-2 py-1 rounded text-purple-700">OpenAI GPT Integration</span>
-            <span className="text-xs bg-purple-50 px-2 py-1 rounded text-purple-700">Hugging Face Transformers</span>
-            <span className="text-xs bg-purple-50 px-2 py-1 rounded text-purple-700">PyTorch & TensorFlow</span>
-            <span className="text-xs bg-purple-50 px-2 py-1 rounded text-purple-700">Vector Databases</span>
-            <span className="text-xs bg-purple-50 px-2 py-1 rounded text-purple-700">Prompt Engineering</span>
-            <span className="text-xs bg-purple-50 px-2 py-1 rounded text-purple-700">RAG Systems</span>
-            <span className="text-xs bg-purple-50 px-2 py-1 rounded text-purple-700">Fine-tuning Models</span>
-            <span className="text-xs bg-purple-50 px-2 py-1 rounded text-purple-700">MLOps & Deployment</span>
-            <span className="text-xs bg-purple-50 px-2 py-1 rounded text-purple-700">Cloud AI Services</span>
-            <span className="text-xs bg-purple-50 px-2 py-1 rounded text-purple-700">Neural Architecture Search</span>
-          </div>
-        </div>
-
-        <div>
-          <h5 className="font-semibold text-sm text-primary mb-2">Key Achievements</h5>
-          <ul className="text-xs space-y-1 text-gray-700">
-            <li>• Graduated with exceptional GPA of 3.94/4.00 across advanced coursework</li>
-            <li>• Developed expertise in Large Language Models and AI applications</li>
-            <li>• Implemented RAG systems and prompt engineering techniques</li>
-            <li>• Built applications using LangChain and modern AI frameworks</li>
-            <li>• Collaborated on cutting-edge projects in computer vision and NLP</li>
-            <li>• Gained hands-on experience with vector databases and model fine-tuning</li>
-          </ul>
-        </div>
-
-        <div>
-          <h5 className="font-semibold text-sm text-primary mb-2">Research Focus</h5>
-          <p className="text-xs text-gray-700">
-            Specializing in artificial intelligence, machine learning, and Large Language Model applications.
-            Working extensively with modern AI frameworks including LangChain, OpenAI APIs, and Hugging Face Transformers.
-            Focused on developing practical AI solutions, RAG systems, and advanced prompt engineering techniques for real-world applications.
-          </p>
-        </div>
-      </div>
-    ),
+    school: "University of Virginia",
+    degree: "Master of Science in Computer Science",
+    location: "Charlottesville, VA, United States",
+    period: "Aug 2024 — Dec 2025",
+    gpa: "3.94 / 4.00",
+    badge: "Graduate",
+    summary:
+      "Specialized in artificial intelligence, machine learning, and large language model applications — pairing rigorous coursework with hands-on research building production-grade AI systems.",
+    coursework: [
+      "Machine Learning",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Distributed Systems",
+      "Advanced Algorithms",
+      "Software Engineering",
+      "Database Systems",
+      "Computer Networks",
+    ],
+    skills: [
+      "Large Language Models",
+      "LangChain",
+      "OpenAI APIs",
+      "HuggingFace Transformers",
+      "PyTorch",
+      "TensorFlow",
+      "Vector Databases",
+      "Prompt Engineering",
+      "RAG Systems",
+      "Fine-tuning (PEFT / QLoRA)",
+      "MLOps",
+      "Cloud AI Services",
+    ],
+    achievements: [
+      "Graduated with a 3.94 / 4.00 GPA across rigorous AI coursework.",
+      "Designed an LLM-vs-LLM fault-localization framework using Gemma-3 12B with PEFT and QLoRA fine-tuning.",
+      "Built RAG systems and prompt-engineering pipelines used in research projects.",
+      "Hands-on experience with vector databases and modern model fine-tuning workflows.",
+    ],
+    focus:
+      "Practical AI systems — RAG, fine-tuning, and agentic LLM architectures applied to real-world data problems.",
   },
   {
     href: "https://www.umumbai.ac.in",
-    title: "Bachelor of Engineering in Computer Engineering",
-    description: "University of Mumbai, Mumbai, India",
-    stack: ["GPA: 3.71/4.00", "Graduated: May 2023", "University of Mumbai"],
-    content: (
-      <div className="space-y-4">
-        <div>
-          <h5 className="font-semibold text-sm text-primary mb-2">Core Coursework</h5>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-            <span className="text-xs bg-green-50 px-2 py-1 rounded text-green-700">Data Structures & Algorithms</span>
-            <span className="text-xs bg-green-50 px-2 py-1 rounded text-green-700">Database Management Systems</span>
-            <span className="text-xs bg-green-50 px-2 py-1 rounded text-green-700">Software Engineering</span>
-            <span className="text-xs bg-green-50 px-2 py-1 rounded text-green-700">Computer Networks</span>
-            <span className="text-xs bg-green-50 px-2 py-1 rounded text-green-700">Operating Systems</span>
-            <span className="text-xs bg-green-50 px-2 py-1 rounded text-green-700">Computer Architecture</span>
-            <span className="text-xs bg-green-50 px-2 py-1 rounded text-green-700">Web Technologies</span>
-            <span className="text-xs bg-green-50 px-2 py-1 rounded text-green-700">Machine Learning</span>
-          </div>
-        </div>
-
-        <div>
-          <h5 className="font-semibold text-sm text-primary mb-2">Academic Excellence</h5>
-          <ul className="text-xs space-y-1 text-gray-700">
-            <li>• Graduated with First Class with Distinction</li>
-            <li>• Maintained consistent academic performance throughout the program</li>
-            <li>• Completed comprehensive final year project in AI/ML domain</li>
-            <li>• Participated in various technical competitions and hackathons</li>
-          </ul>
-        </div>
-
-        <div>
-          <h5 className="font-semibold text-sm text-primary mb-2">Final Year Project</h5>
-          <p className="text-xs text-gray-700">
-            Developed an AI-powered application focusing on machine learning algorithms and data processing.
-            The project demonstrated practical application of computer engineering principles and modern software development practices.
-          </p>
-        </div>
-
-        <div>
-          <h5 className="font-semibold text-sm text-primary mb-2">Technical Skills Developed</h5>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-            <span className="text-xs bg-orange-50 px-2 py-1 rounded text-orange-700">Python Programming</span>
-            <span className="text-xs bg-orange-50 px-2 py-1 rounded text-orange-700">Java Development</span>
-            <span className="text-xs bg-orange-50 px-2 py-1 rounded text-orange-700">Web Development</span>
-            <span className="text-xs bg-orange-50 px-2 py-1 rounded text-orange-700">Database Design</span>
-            <span className="text-xs bg-orange-50 px-2 py-1 rounded text-orange-700">System Design</span>
-            <span className="text-xs bg-orange-50 px-2 py-1 rounded text-orange-700">Project Management</span>
-          </div>
-        </div>
-      </div>
-    ),
+    school: "University of Mumbai",
+    degree: "Bachelor of Engineering in Computer Engineering",
+    location: "Mumbai, India",
+    period: "Aug 2019 — May 2023",
+    gpa: "3.71 / 4.00",
+    badge: "Undergraduate",
+    summary:
+      "Built foundations across systems, algorithms, and software engineering — graduating with First Class with Distinction and a final-year project in AI/ML.",
+    coursework: [
+      "Data Structures & Algorithms",
+      "Database Management Systems",
+      "Software Engineering",
+      "Computer Networks",
+      "Operating Systems",
+      "Computer Architecture",
+      "Web Technologies",
+      "Machine Learning",
+    ],
+    skills: [
+      "Python",
+      "Java",
+      "Web Development",
+      "Database Design",
+      "System Design",
+      "Project Management",
+    ],
+    achievements: [
+      "Graduated with First Class with Distinction.",
+      "Maintained consistent academic performance across the four-year program.",
+      "Completed a comprehensive AI/ML final-year project.",
+      "Active in technical competitions and hackathons.",
+    ],
+    focus:
+      "Core computer-engineering principles applied to applied ML and full-stack software.",
   },
 ];

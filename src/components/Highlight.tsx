@@ -1,6 +1,5 @@
+import { cn } from "@/lib/utils";
 import React from "react";
-
-import { twMerge } from "tailwind-merge";
 
 export const Highlight = ({
   className,
@@ -10,8 +9,9 @@ export const Highlight = ({
   children: React.ReactNode;
 }) => {
   return (
-    <span className={twMerge("bg-neutral-100 px-1 py-0.5", className)}>
+    <span className={cn("bg-neutral-100 dark:bg-zinc-800 text-neutral-900 dark:text-zinc-100 px-1.5 py-0.5 rounded-md font-medium transition-colors", className)}>
       {children}
     </span>
   );
 };
+

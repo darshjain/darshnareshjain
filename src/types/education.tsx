@@ -1,8 +1,14 @@
-
 export type Education = {
-  title: string;
-  description: string;
   href: string;
-  stack?: string[];
-  content?: React.ReactNode | string;
+  school: string;
+  degree: string;
+  location: string;
+  period: string;
+  gpa: string;
+  badge?: string;
+  summary: string;
+  coursework: string[];
+  skills: string[];
+  achievements: string[];
+  focus?: string;
 };

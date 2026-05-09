@@ -1,14 +1,15 @@
-import { Sidebar } from "@/components/Sidebar";
+import { FloatingHeader } from "@/components/FloatingHeader";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import { twMerge } from "tailwind-merge";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import { Footer } from "@/components/Footer";
-import { CSPostHogProvider } from "./providers";
+import { Providers } from "./providers";
+import { cn } from "@/lib/utils";
 
-const inter = Inter({
+const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  weight: ["200", "300", "400", "500", "600", "700", "800"],
+  variable: "--font-inter", // keeping variable name to avoid changing global css
 });
 
 export const metadata: Metadata = {
@@ -23,26 +24,25 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <CSPostHogProvider>
-
-      <html lang="en">
-        <body
-          className={twMerge(
-            inter.className,
-            "flex antialiased h-screen overflow-hidden bg-gray-100"
-          )}
-        >
-          <Sidebar />
-          <div className="lg:pl-2 lg:pt-2 bg-gray-100 flex-1 overflow-y-auto">
-            <div className="flex-1 bg-white min-h-screen lg:rounded-tl-xl border border-transparent lg:border-neutral-200 overflow-y-auto">
-              {/* Mobile top padding to account for floating menu button */}
-              <div className="lg:hidden h-20"></div>
-              {children}
-              <Footer />
-            </div>
+    <html lang="en" suppressHydrationWarning>
+      <body
+        className={cn(
+          jakarta.variable,
+          "min-h-screen bg-white dark:bg-zinc-950 font-sans antialiased"
+        )}
+      >
+        <Providers>
+          <div className="relative flex min-h-screen flex-col">
+            <FloatingHeader />
+            <main className="flex-1 pt-24 pb-12">
+              <div className="mx-auto max-w-5xl px-6">
+                {children}
+              </div>
+            </main>
+            <Footer />
           </div>
-        </body>
-      </html>
-    </CSPostHogProvider>
+        </Providers>
+      </body>
+    </html>
   );
 }

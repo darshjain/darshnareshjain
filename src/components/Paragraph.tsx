@@ -1,7 +1,5 @@
+import { cn } from "@/lib/utils";
 import React from "react";
-
-import localFont from "next/font/local";
-import { twMerge } from "tailwind-merge";
 
 export const Paragraph = ({
   className,
@@ -12,8 +10,8 @@ export const Paragraph = ({
 }) => {
   return (
     <p
-      className={twMerge(
-        "text-sm lg:text-base font-normal text-secondary",
+      className={cn(
+        "text-sm lg:text-base font-normal text-neutral-600 dark:text-neutral-400 leading-relaxed",
         className
       )}
     >

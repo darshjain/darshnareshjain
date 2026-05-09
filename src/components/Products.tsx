@@ -7,63 +7,67 @@ import Link from "next/link";
 import Image from "next/image";
 import { Paragraph } from "./Paragraph";
 import { motion } from "framer-motion";
+import { cn } from "@/lib/utils";
 
 export const Products = () => {
   return (
-    <div>
-      <div className="grid grid-cols-1  gap-10">
-        {products.map((product: Product, idx: number) => (
-          <motion.div
-            key={product.href}
-            initial={{
-              opacity: 0,
-              x: -50,
-            }}
-            animate={{
-              opacity: 1,
-              x: 0,
-            }}
-            transition={{ duration: 0.2, delay: idx * 0.1 }}
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+      {products.map((product: Product, idx: number) => (
+        <motion.div
+          key={product.href}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4, delay: idx * 0.1 }}
+          whileHover={{ y: -5 }}
+          className="group"
+        >
+          <Link
+            href={product.slug ? `/projects/${product.slug}` : product.href}
+            className="flex flex-col h-full glass-card rounded-3xl overflow-hidden"
           >
-            <Link
-              href={product.slug ? `/projects/${product.slug}` : product.href}
-              key={product.href}
-              className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 pt-4"
-            >
+            <div className="relative aspect-video w-full overflow-hidden">
               <Image
                 src={product.thumbnail}
-                alt="thumbnail"
-                height="200"
-                width="200"
-                className="rounded-md w-full h-48 sm:h-52 md:h-48 object-cover"
+                alt={product.title}
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
-              <div className="flex flex-col justify-between">
-                <div>
-                  <Heading
-                    as="h4"
-                    className="font-black text-base sm:text-lg md:text-lg lg:text-lg"
-                  >
-                    {product.title}
-                  </Heading>
-                  <Paragraph className="text-xs sm:text-sm md:text-sm lg:text-sm mt-2 max-w-xl">
-                    {product.description}
-                  </Paragraph>
-                </div>
-                <div className="flex flex-wrap gap-2 md:mb-1 mt-2 md:mt-0">
-                  {product.stack?.map((stack: string) => (
-                    <span
-                      key={stack}
-                      className="text-xs bg-gray-50 px-2 py-1 rounded-sm text-secondary"
-                    >
-                      {stack}
-                    </span>
-                  ))}
-                </div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                <span className="text-white text-xs font-medium">View Project →</span>
               </div>
-            </Link>
-          </motion.div>
-        ))}
-      </div>
+            </div>
+            
+            <div className="p-6 flex flex-col flex-1">
+              <Heading
+                as="h4"
+                className="text-lg md:text-xl mb-2 group-hover:text-accent transition-colors"
+              >
+                {product.title}
+              </Heading>
+              
+              <Paragraph className="text-sm line-clamp-2 mb-4">
+                {product.description}
+              </Paragraph>
+              
+              <div className="mt-auto flex flex-wrap gap-2">
+                {product.stack?.slice(0, 3).map((stack: string) => (
+                  <span
+                    key={stack}
+                    className="text-[10px] uppercase tracking-wider font-bold bg-neutral-100 dark:bg-zinc-800 px-2 py-1 rounded-md text-secondary"
+                  >
+                    {stack}
+                  </span>
+                ))}
+                {product.stack && product.stack.length > 3 && (
+                  <span className="text-[10px] font-bold text-secondary self-center">
+                    +{product.stack.length - 3} more
+                  </span>
+                )}
+              </div>
+            </div>
+          </Link>
+        </motion.div>
+      ))}
     </div>
   );
 };

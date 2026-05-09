@@ -1,7 +1,6 @@
+import { cn } from "@/lib/utils";
 import React from "react";
-
 import localFont from "next/font/local";
-import { twMerge } from "tailwind-merge";
 
 // Font files can be colocated inside of `app`
 const CalSans = localFont({
@@ -16,13 +15,13 @@ export const Heading = ({
 }: {
   className?: string;
   children: React.ReactNode;
-  as?: keyof JSX.IntrinsicElements;
+  as?: any;
 }) => {
   return (
     <Tag
-      className={twMerge(
+      className={cn(
         CalSans.className,
-        "text-lg sm:text-xl md:text-2xl lg:text-4xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary",
+        "text-xl md:text-2xl font-bold text-neutral-900 dark:text-white tracking-tight",
         className
       )}
     >
