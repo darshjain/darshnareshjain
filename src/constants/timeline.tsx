@@ -1,15 +1,15 @@
 export const timeline = [
   {
-    company: "Cast Insights Inc",
+    company: "HeySago",
     location: "San Francisco, CA",
     title: "Software Development Engineer",
-    date: "Mar 2026 — Apr 2026",
+    date: "Apr 2026 — Present",
     type: "Full-time",
     description:
-      "Built Python microservices and LLM applications powering recommendation and insight workflows.",
+      "Built Python microservices on GKE for agentic workflows, ETL orchestration, API integrations, and financial data processing.",
     responsibilities: [
-      "Engineered scalable microservices on GKE for recommendation pipelines, ETL orchestration, API integrations, and data processing.",
-      "Built an LLM application using RAG, OpenAI APIs, MCP, and tool-calling agents to extract structured insights from raw audio and content streams.",
+      "Built Python microservices on GKE for agentic workflows, ETL orchestration, API integrations, and financial data processing.",
+      "Developed a financial insights software using RAG and Gemini to extract structured insights from raw financial news content.",
     ],
     stack: [
       "Python",
@@ -21,7 +21,8 @@ export const timeline = [
       "GKE",
       "GCP",
       "Kubernetes",
-      "OpenAI API",
+      "LLMs",
+      "Gemini API",
       "Auth0",
     ],
   },
@@ -53,7 +54,7 @@ export const timeline = [
   {
     company: "Rhombus Power Inc.",
     location: "Palo Alto, CA",
-    title: "Full Stack Development Intern",
+    title: "Full Stack Development Summer Intern",
     date: "May 2025 — Aug 2025",
     type: "Internship",
     description:

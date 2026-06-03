@@ -10,8 +10,8 @@ export const news = [
     {
         href: "https://www.linkedin.com/in/darshnjain/",
         icon: IconBriefcase2,
-        title: "Started as a Software Development Engineer at Cast Insights Inc, San Francisco, CA 🚀",
-        date: "Mar 2026",
+        title: "Started as a Software Development Engineer at HeySago, San Francisco, CA 🚀",
+        date: "Apr 2026",
     },
     {
         href: "https://www.linkedin.com/in/darshnjain/",

@@ -51,7 +51,7 @@ export default function About() {
           <div className="p-6 rounded-3xl glass-card">
             <h3 className="text-xs font-bold uppercase tracking-[0.2em] text-accent mb-3">Now</h3>
             <Paragraph className="text-sm leading-relaxed">
-              Shipping LLM applications at <span className="font-semibold">Cast Insights</span> — Python microservices on GKE, RAG pipelines, and tool-calling agents that extract structured insight from unstructured content.
+              Shipping LLM applications at <span className="font-semibold">HeySago</span> — Python microservices on GKE, RAG pipelines, and Gemini agents that extract structured insight from financial news content.
             </Paragraph>
           </div>
           <div className="p-6 rounded-3xl glass-card">

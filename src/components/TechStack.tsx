@@ -72,6 +72,7 @@ const categories: Category[] = [
     name: "AI / Data",
     items: [
       "OpenAI API",
+      "Gemini API",
       "RAG",
       "MCP",
       "LLM Fine-tuning",
